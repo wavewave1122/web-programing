@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My wave Page</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        p {
+             text-align: center;
+            color: red;
+        }   
+
+        #font-green {
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 15px;
+        }
+    </style>
+
+<body>
+    <h1 class="font-green font-18" id="title">ยินดีต้อนรับ</h1>
+    <p>นี่คือ Page ที่ 3 ในวิชา Web-Programing</p>
+    <button onclick="changeTitle()">กดฉัน</button>
+    <!-- <br><img src="https://png.pngtree.com/png-clipart/20190611/original/pngtree-corgi-cartoon-png-image_2521598.jpg" alt="หมาน้อย" width="200"><br>
+    <br><a href="https://github.com/wavewave1122">นี่คือ หมาเตือน ของฉัน</a><br>
+    <button onclick="sayHi('JOTZJY')">กดฉัน</button>
+    <button onclick="sayHi('WAVE')">กดฉัน</button>
+    <button onclick="sayHi('IBEI')">กดฉัน</button> -->
+    <script>
+        function changeTitle() {
+            const title = document.getElementById("title")
+            console.log(title);
+            title.innerHTML = "เวฟไปเเล้ว"
+            // alert("Hello" + name);
+        }
+        sayHi();
+    </script>
+</body>
+</head>
+
+</html>
